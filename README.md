@@ -10,10 +10,15 @@ A Feature Refinement and Adaptive Generative Adversarial Network for Thermal Inf
 - visdom
 
 ## Trian
--- python train.py --dataroot [dataset root] --name [experiment_name] --phase train --which_epoch latest
+```
+python train.py --dataroot [dataset root] --name [experiment_name] --phase train --which_epoch latest
+```
 
 ## Test
--- python test.py --dataroot [dataset root] --name [experiment_name] --phase test --which_epoch latest
+```
+python test.py --dataroot [dataset root] --name [experiment_name] --phase test --which_epoch latest
+```
+
 
 ## Colorization results
 ### KAIST dataset
