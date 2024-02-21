@@ -27,8 +27,8 @@ python test.py --dataroot [dataset root] --name [experiment_name] --phase test -
 ### FLIR dataset
 ![FLIR](img/FLIR.png)
 
-
-Note: We only uploaded the pairing strategy, the remaining strategies can be found in [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [CUT](https://github.com/taesungp/contrastive-unpaired-translation).
+## Note
+We only uploaded the pairing strategy, the remaining strategies can be found in [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [CUT](https://github.com/taesungp/contrastive-unpaired-translation).
 
 ## Acknowledgments
 This code heavily borrowes from [MUGAN](https://github.com/HangyingLiao/MUGAN).
