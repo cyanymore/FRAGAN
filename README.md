@@ -1,13 +1,19 @@
-# FRAGAN
+## FRAGAN
 A Feature Refinement and Adaptive Generative Adversarial Network for Thermal Infrared Image Colorization          
 
 
 ## Prerequisites
 - python 3.7
-- torch 1.8.0
-- torchvision 0.9.0
+- torch 1.13.1
+- torchvision 0.14.1
 - dominate
-- visdom 
+- visdom
 
+## Trian
+- python train.py --dataroot [dataset root] --name [experiment_name] --phase train --which_epoch latest
+
+## Test
+- python test.py --dataroot [dataset root] --name [experiment_name] --phase test --which_epoch latest
+- 
 ## Acknowledgments
 This code heavily borrowes from [MUGAN](https://github.com/HangyingLiao/MUGAN).
