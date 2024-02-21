@@ -9,6 +9,9 @@ A Feature Refinement and Adaptive Generative Adversarial Network for Thermal Inf
 - dominate
 - visdom
 
+## Pretrianed
+We provide the pretrained model: [Google](https://drive.google.com/drive/folders/1KiL0p8NZdV0YyyOdt4Z2TCOy_jz_i0w3)
+
 ## Trian
 ```
 python train.py --dataroot [dataset root] --name [experiment_name] --phase train --which_epoch latest
