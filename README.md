@@ -22,6 +22,13 @@ python train.py --dataroot [dataset root] --name [experiment_name] --phase train
 python test.py --dataroot [dataset root] --name [experiment_name] --phase test --which_epoch latest
 ```
 
+## Colorization results
+### KAIST dataset
+![KAIST](img/KAIST.png)
+
+
+### FLIR dataset
+![FLIR](img/FLIR.png)
 
 
 ## Note
