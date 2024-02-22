@@ -23,13 +23,6 @@ python test.py --dataroot [dataset root] --name [experiment_name] --phase test -
 ```
 
 
-## Colorization results
-### KAIST dataset
-![KAIST](img/KAIST.png)
-
-
-### FLIR dataset
-![FLIR](img/FLIR.png)
 
 ## Note
 We only uploaded the paired strategy, the remaining strategies can be found in [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [CUT](https://github.com/taesungp/contrastive-unpaired-translation).
