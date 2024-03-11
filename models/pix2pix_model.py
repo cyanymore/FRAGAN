@@ -139,7 +139,7 @@ class Pix2PixModel(BaseModel):
         # TV loss
         diff_i = torch.sum(torch.abs(self.fake_B[:, :, :, 1:] - self.fake_B[:, :, :, :-1]))
         diff_j = torch.sum(torch.abs(self.fake_B[:, :, 1:, :] - self.fake_B[:, :, :-1, :]))
-        self.tv_loss = (diff_i + diff_j) / (320 * 256)
+        self.tv_loss = (diff_i + diff_j) / (256 * 256)
 
         # ssim-loss
         # set 'size_average=True' to get a scalar value as loss. see tests/tests_loss.py for more details
